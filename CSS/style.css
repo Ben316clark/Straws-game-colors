@@ -1,1 +1,81 @@
+body{
+    
+}
+.nav{
+    height: 50px;
+    position: sticky;
+    background-color: rgba(5, 5, 5, 0.651);
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.Logo{
+}
+.title{
+    font-size: 18px;
+ 
+    
+}
+nav div{
+    color: floralwhite;
+}
+nav ul{ 
+    color: floralwhite;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    color: floralwhite;
+}
+.nav-item{ 
+    font-size: 10px;
+    display: block;
+}
+.navwords{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.parallax {
+    min-height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/Straws-game-colors/IMG/jason-d-Q33uuKa6r48-unsplash.jpg);
+    
+}
+h3{
+    text-align: center;
+}
+.Sentence{
+    color: floralwhite;
+    width: 100%;
+    text-align: center;
+}
+.Main{ 
+    background-color: rgba(0, 0, 0, 0.514);
+    color: floralwhite;
+}
+.gameColor{
+    height: 200px;
+}
+.Color{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
 
+}
+.btn1{
+    color: chocolate;
+    background-color: blueviolet;
+    
+}
+.reveal{
+    
+}
+.blank{
+    height: 1000px;
+}
+.form1{
+    text-align: center;
+}

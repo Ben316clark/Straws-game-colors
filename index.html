@@ -1,14 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/JSFB/JS/script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script defer src="/Straws-game-colors/JS/script.js"></script>
+    <link rel="stylesheet" href="/Straws-game-colors/CSS/style.css">
     <title>Document</title>
 </head>
-<body>
-    <h1>Hello World</h1>
-    <p>Benjamin Clark</p>
+
+<body class="parallax">
+    <nav class="navbar nav ">
+        <div class="container d-flex  ">
+            <div class="row ">
+                <div class="col-4 ">
+                    <a href="#" class="Logo"><img src="/Straws-game-colors/IMG/Straws logo.png" width="50px"
+                            alt="Straw game logo"></a>
+                </div>
+                <div class="col-4 ">
+                    <div class="title Name">Straws Game</div>
+
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li class="nav-item"><a class= "navwords" href="#rules" >Rules</a> </li>
+                        <li class="nav-item"> <a class= "navwords" href="#game">Game</a> </li>
+                        <li class="nav-item"><a class= "navwords" href="#suggestions">Suggestions</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section id=rules class=" rules">
+        <div>
+            <div class="Sentence">The Ultimate Bar Game of Colors and Betrayal </div>
+            <div class="Rules Main">
+                <h2>Rules</h2>
+                <p>
+                    <ul>
+                        <li>1. Every player gets three straws, and a drink of their choice </li>
+                        <li>2. Place the phone in the middle of the table </li>
+                        <li>3. Person who puked last starts the game/ if playing multiple games, left of the winner goes
+                            first </li>
+                        <li>4. Pick a color from the list </li>
+                        <li>5. If the color was guessed correctly draw a straw (2 in the case of black or white) from
+                            any other player and guess again </li>
+                        <li>6. If you were wrong the next player to the left begins </li>
+                        <li>7. In the occurence a color is in dispute, every player makes a guess</li>
+                        <li>8. Click the reveal color button</li>
+                        <li>9. Every player that was correct must take a straw from a player that was wrong clockwise
+                            from the original guesser </li>
+                        <li>10. Every straw lost is a sip, a large drink when all straws are lost</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="game" class="">
+        <div class=" Main">
+            <h3>What color is it going to be??</h3>
+            <div class="gameColor Main d-flex align-items-center justify-content-center">
+                <div id='ColorDiv' class="Color"><div id="Color">color name </div> </div>
+                <button class="btn1">???</button> 
+            </div>
+            <button class="reveal"> Reveal Color </button>
+        </div>
+    </section>
+    <section class="blank"></section>
+    <section id="suggestion" class="">
+        <div class="Main d-flex justify-content-center">
+            <form class="form1" action="#">
+                <label for="GameSuggestions">What would make the game even better?</label> <br>
+                <input type="
+        text" id="GameSuggstions" value="..."> <br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
