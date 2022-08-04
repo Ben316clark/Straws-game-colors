@@ -1,7 +1,7 @@
 body{
     
 }
-.nav{
+.nav1{
     height: 50px;
     position: sticky;
     background-color: rgba(5, 5, 5, 0.651);
@@ -10,10 +10,11 @@ body{
     padding: 0px;
 }
 .Logo{
+    float: left;
 }
 .title{
     font-size: 18px;
- 
+ text-align: center;
     
 }
 nav div{
@@ -21,13 +22,14 @@ nav div{
 }
 nav ul{ 
     color: floralwhite;
+    float: right;
 }
 nav ul li{
     list-style: none;
     display: inline-block;
     color: floralwhite;
 }
-.nav-item{ 
+.navitem{ 
     font-size: 10px;
     display: block;
 }
@@ -36,7 +38,16 @@ nav ul li{
     text-decoration: none;
 }
 .parallax {
-    min-height: 1000px;
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/Straws-game-colors/IMG/jason-d-Q33uuKa6r48-unsplash.jpg);
+    
+}
+.parallax2 {
+    min-height: 100px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -65,13 +76,19 @@ h3{
     width: 100px;
 
 }
+.colorName{
+    
+}
+.colorBtnDiv{
+    
+}
 .btn1{
     color: chocolate;
     background-color: blueviolet;
     
 }
 .reveal{
-    
+    text-align: center;
 }
 .blank{
     height: 1000px;

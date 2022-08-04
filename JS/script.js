@@ -1,76 +1,65 @@
-function pickColorFamily(){
-     x = Math.random() * 190;
-     console.log(x );
-if( x < 30)
-console.log('red');
-color = red
-else if(x >= 30 && x < 60 )
-console.log('blue');
- color = red
-else if(x >= 60 && x < 90 )
-console.log('yellow');
-let color = red;
-else if(x >= 90 && x < 120 )
-console.log('green');
-let color = red;
-else if(x >= 120 && x < 150 )
-console.log('purple');
-let color = red;
-else if(x >= 150 && x < 180 )
-console.log('pink');
-let color = red;
-else if(x >= 180 && x < 185 )
-console.log('Black'); 
-let color = red;
-else if(x >= 185 && x < 190 )
-console.log('white');   
-let color = red;
-}
-function changeDivColor(){
-    var element = document.getElementById("ColorDiv");
-    element.style.backgroundColor = color1;
-}
-function changeRevealColor(){
-    var element = document.getElementByyId("Color");
-    element.style.color = color
-}
-function pickColorFromArray(){
-    let i = math.Floor(Math.random()*15) ;
-    if (i = 1)
-    else if(i = 2)
-    else if(i = 3)
-    else if(i = 4)
-    else if(i = 5)
-    else if(i = 6)
-    else if(i = 7)
-    else if(i = 8)
-    else if(i = 9)
-    else if(i = 10)
-    else if(i = 11)
-    else if(i = 12)
-    else if(i = 13)
-    else if(i = 14)
-    else if(i = 15)
-   
-}
-// red
-let arrayRed = array: ['rgb(100, 0, 0)','rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', 'rgb(100, 0, 0)', ]
+// red  
+let arrayRed = ['rgb(101, 0, 0)', 'rgb(105, 0, 0)', 'rgb(108, 0, 0)', 'rgb(112, 0, 0)', 'rgb(120, 0, 0)', 'rgb(130, 0, 0)', 'rgb(140, 0, 0)', 'rgb(150, 0, 0)', 'rgb(160, 0, 0)', 'rgb(165, 0, 0)', 'rgb(170, 0, 0)', 'rgb(180, 0, 0)', 'rgb(190, 0, 0)', 'rgb(200, 0, 0)', 'rgb(210, 0, 0)', ];
 // blue
-let arrayBlue = array: ['rgb(0, 224, 237)','rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', 'rgb(0, 224, 237)', ]
+let arrayBlue = ['rgb(0, 234, 237)', 'rgb(0, 224, 247)', 'rgb(0, 229, 230)', 'rgb(0, 200, 200)', ' rgb(0, 200, 255)', 'rgb(0, 124, 237)', 'rgb(0, 124, 200)', 'rgb(0, 150, 207)', 'rgb(0, 184, 230)', 'rgb(0, 254, 207)', 'rgb(0, 234, 207)', 'rgb(0, 185, 200)', 'rgb(0, 174, 247)', 'rgb(0, 204, 207)', 'rgb(0, 224, 237)', ];
 // yellow
-let arrayYellow = array: ['rgb(161, 150, 0)','rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', ]
+let arrayYellow = ['rgb(161, 150, 0)', 'rgb(162, 149, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', 'rgb(161, 150, 0)', ];
 // green
-let arrayGreen = array: ['rgb(0, 20, 0)','rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', 'rgb(0, 20, 0)', ]
+let arrayGreen = ['rgb(0, 50, 0)', 'rgb(0, 20, 0)', 'rgb(0, 70, 0)', 'rgb(0, 90, 0)', 'rgb(0, 100, 0)', 'rgb(0, 110, 0)', 'rgb(0,120, 0)', 'rgb(0, 140, 0)', 'rgb(0, 160, 0)', 'rgb(0, 180, 0)', 'rgb(0, 200, 0)', 'rgb(0, 220, 0)', 'rgb(0, 240, 0)', 'rgb(0, 250, 0)', 'rgb(0, 20, 40)', ];
 // purple
-let arrayPurple = array: ['rgb(28, 0, 13)','rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', 'rgb(28, 0, 13)', ]
+let arrayPurple = ['rgb(29, 0, 14)', 'rgb(28, 0, 13)', 'rgb(32, 0, 15)', 'rgb(28, 0, 18)', 'rgb(25, 0, 19)', 'rgb(38, 0, 14)', 'rgb(48, 0, 13)', 'rgb(18, 0, 03)', 'rgb(18, 0, 13)', 'rgb(26, 0, 11)', 'rgb(29, 0, 16)', 'rgb(25, 0, 10)', 'rgb(32, 0, 14)', 'rgb(31, 0, 1)', 'rgb(18, 0, 18)', ];
 // pink
-let arrayPink = array: ['rgb(170, 0, 63)','rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', 'rgb(170, 0, 63)', ]
+let arrayPink = ['rgb(170, 0, 63)', 'rgb(160, 0, 63)', 'rgb(150, 0, 63)', 'rgb(160, 0, 60)', 'rgb(150, 0, 73)', 'rgb(180, 0, 53)', 'rgb(170, 0, 73)', 'rgb(170, 0, 83)', 'rgb(170, 0, 53)', 'rgb(180, 0, 83)', 'rgb(180, 0, 60)', 'rgb(160, 0, 93)', 'rgb(170, 0, 75)', 'rgb(175, 0, 65)', 'rgb(176, 0, 69)', ];
 // black
- let black = 'rgb(0,0,0)' 
+let Black = ['rgb(0,0,0)', 'rgb(0,0,0)', ];
 // white
-let white = 'rgb(255,255,255)'
+let White = ['rgb(255,255,255)', 'rgb(255,255,255)', ];
+let color = null;
+const revealBtn = document.getElementById("revealBtn");
+const reveal = document.getElementById("Color");
+const ColorBtn1 = document.getElementById("ColorBtn");
+const ColorDiv = document.getElementById("ColorDiv");
+ColorBtn1.addEventListener('click', () => {
+    function pickColorFamily() {
+        let x = Math.random() * 190;
+        if (x < 30) {
+                color = arrayRed;
+            colorName = "Red"
+        } else if (x >= 30 && x < 60) {
+                color = arrayBlue
+            colorName = "Blue"
+        } else if (x >= 60 && x < 90) {
+            color = arrayYellow;
+            colorName = "Yellow";
+        } else if (x >= 90 && x < 120) {
+            color = arrayGreen;
+            colorName = "Green"
+        } else if (x >= 120 && x < 150) {
+            colorName = "Purple"
+            color = arrayPurple;
+        } else if (x >= 150 && x < 180) {
+            colorName = "Pink"
+            color = arrayPink;
+        } else if (x >= 180 && x < 185) {
+            colorName = "Black"
+            color = Black;
+        } else {
+            colorName = "White"
+            color = White;
+        }
+        revealBtn.addEventListener('click', () => {
+            reveal.innerHTML = colorName;
+        })
+    }
 
+    pickColorFamily();
 
-pickColorFamily()
-changeRevealColor()
-changeDivColor()
+    function pickColorFromArray() {
+
+        let randomColor = color[Math.floor(Math.random() * 10)];
+
+        ColorDiv.style.backgroundColor = randomColor;
+
+    }
+    pickColorFromArray();
+})

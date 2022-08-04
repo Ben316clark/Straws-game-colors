@@ -9,12 +9,12 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script defer src="/Straws-game-colors/JS/script.js"></script>
     <link rel="stylesheet" href="/Straws-game-colors/CSS/style.css">
-    <title>Document</title>
+    <title>Straws Game Colors</title>
 </head>
 
-<body class="parallax">
-    <nav class="navbar nav ">
-        <div class="container d-flex  ">
+<body>
+    <nav class="navbar nav1 nav">
+        <div class=" d-flex container justify-content-center ">
             <div class="row ">
                 <div class="col-4 ">
                     <a href="#" class="Logo"><img src="/Straws-game-colors/IMG/Straws logo.png" width="50px"
@@ -26,15 +26,15 @@
                 </div>
                 <div class="col-4">
                     <ul>
-                        <li class="nav-item"><a class= "navwords" href="#rules" >Rules</a> </li>
-                        <li class="nav-item"> <a class= "navwords" href="#game">Game</a> </li>
-                        <li class="nav-item"><a class= "navwords" href="#suggestions">Suggestions</a> </li>
+                        <li class="navitem"><a class= "navwords" href="#rules" >Rules</a> </li>
+                        <li class="navitem"> <a class= "navwords" href="#game">Game</a> </li>
+                        <li class="navitem"><a class= "navwords" href="#suggestions">Suggestions</a> </li>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
-    <section id=rules class=" rules">
+    <section id=rules class=" rules parallax">
         <div>
             <div class="Sentence">The Ultimate Bar Game of Colors and Betrayal </div>
             <div class="Rules Main">
@@ -59,18 +59,31 @@
             </div>
         </div>
     </section>
-    <section id="game" class="">
+    <section id="game" class="parallax">
         <div class=" Main">
             <h3>What color is it going to be??</h3>
-            <div class="gameColor Main d-flex align-items-center justify-content-center">
-                <div id='ColorDiv' class="Color"><div id="Color">color name </div> </div>
-                <button class="btn1">???</button> 
+            <div class="gameColor Main d-flex align-items-center justify-content-center row">
+                <div id='ColorDiv' class="Color col-4"> </div>
+                <div class="colorBtnDiv col-4"> <button id="ColorBtn" class="btn1 ">???</button> </div>
+                <div class=" colorName col-3" id="Color">Color Name </div>
             </div>
-            <button class="reveal"> Reveal Color </button>
+            <div class="reveal"><button id="revealBtn" class="reveal"> Reveal Color </button></div>
+            <div>
+                <h4>Color Options</h4>
+                <ul>
+                    <li>Red</li>
+                    <li>Blue</li>
+                    <li>Yellow</li>
+                    <li>Green</li>
+                    <li>Purple</li>
+                    <li>Pink</li>
+                    <li>Black</li>
+                    <li>White</li>
+                </ul>
+            </div>
         </div>
     </section>
-    <section class="blank"></section>
-    <section id="suggestion" class="">
+    <section id="suggestions" class="parallax2">
         <div class="Main d-flex justify-content-center">
             <form class="form1" action="#">
                 <label for="GameSuggestions">What would make the game even better?</label> <br>
