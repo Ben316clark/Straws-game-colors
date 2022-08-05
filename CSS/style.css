@@ -1,10 +1,8 @@
-body{
-    
-}
-.nav1{
-    height: 50px;
+
+.nav{
+    height: 70px;
     position: sticky;
-    background-color: rgba(5, 5, 5, 0.651);
+    background-color: rgba(5, 5, 5, 0.5);
     width: 100%;
     margin: 0px;
     padding: 0px;
@@ -14,15 +12,17 @@ body{
 }
 .title{
     font-size: 18px;
- text-align: center;
-    
+    text-align: center;
+    text-shadow: 1px 1px #b68936;
 }
 nav div{
     color: floralwhite;
+    width: 80%;
 }
 nav ul{ 
     color: floralwhite;
     float: right;
+    text-shadow: 1px 1px #b68936;
 }
 nav ul li{
     list-style: none;
@@ -34,11 +34,11 @@ nav ul li{
     display: block;
 }
 .navwords{
-    color: antiquewhite;
+    color: floralwhite;
     text-decoration: none;
 }
 .parallax {
-    min-height: 600px;
+    min-height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -55,6 +55,9 @@ nav ul li{
     background-image: url(/Straws-game-colors/IMG/jason-d-Q33uuKa6r48-unsplash.jpg);
     
 }
+h2{
+    text-align: center;
+}
 h3{
     text-align: center;
 }
@@ -62,36 +65,64 @@ h3{
     color: floralwhite;
     width: 100%;
     text-align: center;
+    text-shadow: 1px 1px #b68936;
 }
 .Main{ 
     background-color: rgba(0, 0, 0, 0.514);
     color: floralwhite;
+    text-shadow: 1px 1px #b68936;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+}
+.classRules{
+}
+.Main li{
+    list-style: none;
+    margin-left: -20px;
 }
 .gameColor{
-    height: 200px;
+    height: 250px;
+    border-radius: 10px;
 }
 .Color{
-    background-color: aqua;
-    height: 100px;
-    width: 100px;
-
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    width: 150px;
+    margin: 5px;
+    border-radius: 10px;
 }
 .colorName{
-    
+    text-align: center;
+     border-radius: 10px;
 }
 .colorBtnDiv{
-    
+    text-align: center;
 }
 .btn1{
-    color: chocolate;
-    background-color: blueviolet;
+    color: #b68936;
+    background-color: rgb(39, 38, 41);
     
 }
 .reveal{
     text-align: center;
+    margin: 5px;
+}
+.revealButton{
+    text-align: center;
+    color: #b68936;
+    background-color: rgb(39, 38, 41);
+}
+.options{
+    text-align: center;
+    
+}
+.options li{
+    list-style: none;
+    margin-left: -40px;
 }
 .blank{
-    height: 1000px;
+    height: 50px;
 }
 .form1{
     text-align: center;

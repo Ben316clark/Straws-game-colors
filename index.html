@@ -12,9 +12,9 @@
     <title>Straws Game Colors</title>
 </head>
 
-<body>
+<body class="parallax2">
     <nav class="navbar nav1 nav">
-        <div class=" d-flex container justify-content-center ">
+        <div class=" navbar d-flex container justify-content-center ">
             <div class="row ">
                 <div class="col-4 ">
                     <a href="#" class="Logo"><img src="/Straws-game-colors/IMG/Straws logo.png" width="50px"
@@ -39,7 +39,7 @@
             <div class="Sentence">The Ultimate Bar Game of Colors and Betrayal </div>
             <div class="Rules Main">
                 <h2>Rules</h2>
-                <p>
+                <div class="listRules">
                     <ul>
                         <li>1. Every player gets three straws, and a drink of their choice </li>
                         <li>2. Place the phone in the middle of the table </li>
@@ -55,20 +55,28 @@
                             from the original guesser </li>
                         <li>10. Every straw lost is a sip, a large drink when all straws are lost</li>
                     </ul>
-                </p>
+                </div>
             </div>
         </div>
     </section>
     <section id="game" class="parallax">
         <div class=" Main">
             <h3>What color is it going to be??</h3>
-            <div class="gameColor Main d-flex align-items-center justify-content-center row">
-                <div id='ColorDiv' class="Color col-4"> </div>
-                <div class="colorBtnDiv col-4"> <button id="ColorBtn" class="btn1 ">???</button> </div>
-                <div class=" colorName col-3" id="Color">Color Name </div>
+            <div class="container">
+            <div class="gameColor Main d-flex row justify-content-center
+            align-items-center ">
+                <div class="row justify-content-center"><div id='ColorDiv' class="Color col-4 "> </div></div>
+                <div class="row justify-content-center"><div class="colorBtnDiv col-4"> <button id="ColorBtn" class="btn1 ">???</button> </div></div>
+                <div class="row justify-content-center"><div class=" colorName col-4" id="Color">Color Name </div></div>
+                
+                
             </div>
-            <div class="reveal"><button id="revealBtn" class="reveal"> Reveal Color </button></div>
-            <div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center"><div class="reveal col-4"><button id="revealBtn" class="reveal revealButton"> Reveal Color </button></div></div>
+        </div>
+            
+            <div class="options">
                 <h4>Color Options</h4>
                 <ul>
                     <li>Red</li>
@@ -77,8 +85,8 @@
                     <li>Green</li>
                     <li>Purple</li>
                     <li>Pink</li>
-                    <li>Black</li>
-                    <li>White</li>
+                    <li>Black (2 Straws)</li>
+                    <li>White (2 Straws)</li>
                 </ul>
             </div>
         </div>

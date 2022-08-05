@@ -11,9 +11,9 @@ let arrayPurple = ['rgb(29, 0, 14)', 'rgb(28, 0, 13)', 'rgb(32, 0, 15)', 'rgb(28
 // pink
 let arrayPink = ['rgb(170, 0, 63)', 'rgb(160, 0, 63)', 'rgb(150, 0, 63)', 'rgb(160, 0, 60)', 'rgb(150, 0, 73)', 'rgb(180, 0, 53)', 'rgb(170, 0, 73)', 'rgb(170, 0, 83)', 'rgb(170, 0, 53)', 'rgb(180, 0, 83)', 'rgb(180, 0, 60)', 'rgb(160, 0, 93)', 'rgb(170, 0, 75)', 'rgb(175, 0, 65)', 'rgb(176, 0, 69)', ];
 // black
-let Black = ['rgb(0,0,0)', 'rgb(0,0,0)', ];
+let arrayBlack = ['rgb(0,0,0)','rgb(0,0,0)', ];
 // white
-let White = ['rgb(255,255,255)', 'rgb(255,255,255)', ];
+let arrayWhite = ['rgb(255,255,255)','rgb(255,255,255)',];
 let color = null;
 const revealBtn = document.getElementById("revealBtn");
 const reveal = document.getElementById("Color");
@@ -42,11 +42,12 @@ ColorBtn1.addEventListener('click', () => {
             color = arrayPink;
         } else if (x >= 180 && x < 185) {
             colorName = "Black"
-            color = Black;
+            color = arrayBlack;
         } else {
             colorName = "White"
-            color = White;
+            color = arrayWhite;
         }
+        reveal.innerHTML = "Color Name"
         revealBtn.addEventListener('click', () => {
             reveal.innerHTML = colorName;
         })
